@@ -1,0 +1,51 @@
+body{
+  /* width: 960px; */
+  background-color:rgb(214, 214, 241)
+
+}
+legend{
+  color: blue;
+}
+.fbody{
+  width: 700px;
+  margin: 5px auto;
+  font-family: sans-serif;
+}
+input ,textarea,button, .otp{
+  border-style:2px gray groove;
+  border-radius: 5px;
+  background-color: rgb(238, 244, 247);
+}
+label,h4{
+  color: #0583b4;
+}
+#avatar{
+  border: none;
+  background-color:rgba(214, 214, 241, 0.705);
+  color: rgb(9, 9, 156);
+}
+.alle{
+  font-size: 25px;
+  font-family: cursive;
+  color: rgb(251, 164, 3);
+}
+.gender{
+  color: blueviolet;
+}
+.gcolor{
+  color: deeppink;
+}
+.choose{
+  color: rgb(3, 190, 128);
+}
+.fruit{
+  font-family:cursive;
+  color: fuchsia;
+}
+.cmt{
+  color: rgb(112, 6, 211);
+  display: inline;
+  background-color: orangered;
+  border-radius: 5px;
+  padding: 5px;
+}
