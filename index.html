@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Form Elements</title>
+  <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+  <form class="fbody">
+    <fieldset>
+     <legend class="alle">All Form Elements:</legend><br>
+     
+     <label for="fname">First name:</label>
+     <input type="text" id="fname" name="fname" placeholder="First name" required ><br><br>
+
+     <label for="lname">Last name:</label>
+     <input type="text" id="lname" name="lname" placeholder="Last name" required ><br><br>
+
+     <label for="email">Email:</label>
+     <input type="email" id="email" name="email" placeholder="Email" required> <br><br>
+
+     <label for="phone">Phone number:</label>
+     <input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Enter your phone number" required> <br><br>
+
+     <label for="age">Age:</label>
+     <input type="number" id="age" name="number" placeholder="Your Age" required ><br><br>
+
+     <label for="pass">Password:</label>
+     <input type="password" id="pass" name="password" placeholder="Password" required ><br>
+
+     <h4 class="gender">Gender:</h4>
+     <input type="radio" id="male" name="g"> <label class="gcolor" for="male">Male</label>
+     <input type="radio" id="female" name="g"> <label class="gcolor" for="female">Female</label>
+     <input type="radio" id="other" name="g"> <label class="gcolor" for="other">Other</label><br><br>
+
+     <label for="birthday">Birthday:</label>
+     <input type="date" id="birthday" name="birthday" required><br><br>
+
+     <label for="date-time" required>Date and Time:</label>
+     <input type="datetime-local" size="25"><br>
+
+     <div>
+       <h4 class="fruit">Choose Your Favorite Fruits:</h4>
+
+       <input type="checkbox" id="Apple" name="Apple">
+      <label class="choose" for="Apple">Apple</label>
+       <input type="checkbox" id="Banana" name="Banana">
+      <label class="choose" for="Banana">Banana</label>
+       <input type="checkbox" id="Jackfruit" name="Jackfruit">
+      <label class="choose" for="Jackfruit">Jackfruit</label>
+       <input type="checkbox" id="Lychee" name="Lychee">
+      <label class="choose" for="Lychee">Lychee</label>
+       <input type="checkbox" id="Mango" name="Mango">
+      <label class="choose" for="Mango">Mango</label>
+    </div>
+
+    <div >
+      <h4>Countries:</h4>
+      <select class="otp" name="" id="">
+        <optgroup label="Asia">  
+          <option value="bangladesh">Bangladesh</option>
+          <option value="india">India</option>
+          <option value="pakistan">Pakistan</option>
+          <option value="china">China</option>
+          <option value="indonesia">Indonesia</option>
+          <option value="japan">Japan</option>
+          <option value="philippines">Philippines</option>
+          <option value="afghanistan">Afghanistan</option>
+        </optgroup>  
+        <optgroup label="Africa">  
+          <option value="Nigeria">Nigeria</option>
+          <option value="Ethiopia">Ethiopia</option>
+          <option value="Egypt">Egypt</option>
+          <option value="Tanzania">Tanzania</option>
+          <option value="South Africa">South Africa</option>
+        </optgroup>  
+        <optgroup label="Europe">  
+          <option value="Russia">Russia</option>
+          <option value="Germany">Germany</option>
+          <option value="United Kingdom	">United Kingdom</option>
+          <option value="France">France</option>
+          <option value="Italy">Italy</option>
+        </optgroup>  
+        <optgroup label="North America">  
+          <option value="U.S.A.">U.S.A.</option>
+          <option value="Mexico">Mexico</option>
+          <option value="Canada">Canada</option>
+          <option value="Guatemala">Guatemala</option>
+          <option value="Haiti">Haiti</option>
+        </optgroup>  
+        <optgroup label="South America">  
+          <option value="Brazil">Brazil</option>
+          <option value="Colombia	">Colombia	</option>
+          <option value="Argentina">Argentina</option>
+          <option value="Peru">Peru</option>
+          <option value="Venezuela">Venezuela</option>
+        </optgroup>  
+        </optgroup>  
+        <optgroup label="Australia/Oceania">  
+          <option value="Australia">Australia</option>
+          <option value="New Zealand">New Zealand</option>
+          <option value="Fiji">Fiji</option>
+          <option value="	Solomon Islands">	Solomon Islands</option>
+          <option value="Micronesia">Micronesia</option>
+        </optgroup> 
+        <optgroup label="Antarctica"> <option value="No-Country">No-Country</option></optgroup>
+      </select>
+    </div><br>
+    <div>
+      <label for="browser">Know abour your Browser:</label>
+      <input list="browsers" id="browser">
+      <datalist id="browsers">
+        <option value="Chrome">
+        <option value="Mozilla Firefox">
+        <option value="Brave">
+        <option value="Microsoft Edge">
+        <option value="Apple Safari">
+        <option value="Opera">
+        <option value="Internet Explorer">
+      </datalist>
+      <input type="submit" value="Search">
+    </div><br>
+
+     <label for="color" required>Color:</label>
+     <input type="color" id="color" name="color"><br><br>
+
+     <label for="site-search" >Search the site:</label>
+     <input type="search" id="site-search" placeholder="What you want" required>
+     <button>Search</button><br><br>
+
+     <label for="avatar">Choose a File:</label>
+     <input type="file"id="avatar" name="avatar" required><br><br>
+     
+     <label for="url">Enter an https:// URL:</label>
+     <input type="url" name="url" id="url"
+       placeholder="https://example.com"
+       pattern="https://.*" size="" required> <br> <br>
+
+     <h4 class="cmt">Comment:</h4><br> <br>
+     <textarea id="comment" value="comment" placeholder="write your own opinion" required></textarea> <br><br>
+
+     <input type="submit" value="Submit">
+     <input type="reset">
+    </fieldset>
+   </form>
+   <br><br>
+</body>
+</html>
